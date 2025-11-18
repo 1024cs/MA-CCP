@@ -11,3 +11,5 @@ Column      | Type     | Example            | Description
 
 The cache management policy is designed and implemented using a list-based approach.
 The design of the flash memory backend is based on the TSU architecture implemented in MQSim.
+
+MA-CCP constructs a dual-agent RL model for cache prefetch and replacement, achieving feedback and collaborative optimization through joint rewards. Meanwhile, MA-CCP backups data across multiple non-conflicting flash parallel units, accelerating data read and prefetch processes.
